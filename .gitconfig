@@ -1,0 +1,5 @@
+[alias]
+unproxy = config --global --remove-section http
+unproxy2 = config --global --remove-section https
+proxy = config --global http.proxy <proxy-server>:<proxy:port>
+proxy2 = config --global https.proxy <proxy-server>:<proxy:port>
